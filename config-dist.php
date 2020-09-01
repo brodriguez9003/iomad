@@ -40,7 +40,7 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = 'mariadb';      // 'pgsql', 'mariadb', 'mysqli', 'sqlsrv' or 'oci'
 $CFG->dblibrary = 'native';     // 'native' only at the moment
-$CFG->dbhost    = 'localhost';  // eg 'localhost' or 'db.isp.com' or IP
+$CFG->dbhost    = 'bitnami-docker-phpmyadmin_mariadb_1';  // eg 'localhost' or 'db.isp.com' or IP
 $CFG->dbname    = 'mariadb';     // database name, eg moodle
 $CFG->dbuser    = 'root';   // your database username
 $CFG->dbpass    = 'bitnami';   // your database password
